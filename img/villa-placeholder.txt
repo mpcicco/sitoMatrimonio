@@ -1,0 +1,8 @@
+# Immagine Villa
+Aggiungi qui il file villa.jpg con l'immagine della location InVilla.
+
+L'immagine deve avere:
+- Nome file: villa.jpg
+- Aspect ratio orizzontale preferibile
+- Buona qualità per visualizzazione web
+- L'immagine verrà mostrata con object-fit: cover e object-position: left center 
