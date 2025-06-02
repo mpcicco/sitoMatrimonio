@@ -545,6 +545,8 @@ footer {
 
     .schedule {
         grid-template-columns: 1fr;
+        grid-template-rows: unset;
+        grid-auto-flow: unset;
         gap: 0.8rem;
     }
 
