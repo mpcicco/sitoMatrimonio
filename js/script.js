@@ -33,23 +33,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
-    // Initial call
-    updateCountdown();
-    
-    // Update countdown every second
-    const countdownInterval = setInterval(updateCountdown, 1000);
-    
-    // Smooth scrolling for scroll indicator
-    const scrollIndicator = document.querySelector('.scroll-indicator');
-    
-    if (scrollIndicator) {
-        scrollIndicator.addEventListener('click', function() {
-            const welcomeSection = document.querySelector('.welcome');
-            if (welcomeSection) {
-                welcomeSection.scrollIntoView({ behavior: 'smooth' });
-            }
-        });
-    }
     
     // Copy IBAN functionality
     const copyIbanBtn = document.getElementById('copyIban');
